@@ -1,0 +1,27 @@
+{
+  "name": "sql",
+  "version": "0.0.1",
+  "description": "\"doing sql for the location \"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniaalrababa9/SQL.git"
+  },
+  "author": "dania",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniaalrababa9/SQL/issues"
+  },
+  "homepage": "https://github.com/daniaalrababa9/SQL#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^7.17.0",
+    "superagent": "^5.2.1"
+  }
+}
